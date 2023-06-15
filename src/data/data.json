@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "name": "Free",
+        "price": 0,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "benefits": ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"],
+        "popular": true
+
+    },
+    {
+        "id": 1,
+        "name": "Basic",
+        "price": 29,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "benefits": ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"],
+        "popular": false
+    },
+    {
+        "id": 2,
+        "name": "Professional",
+        "price": 59,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "benefits": ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"],
+        "popular": false
+    }
+]
