@@ -11,7 +11,6 @@ export const GlobalStyle = createGlobalStyle`
     --white-100: #EEEEEE;
     --white-200: #F9FBFC;
     --yellow: #FFCC29;
-
 }
 * {
     margin: 0;
@@ -24,7 +23,7 @@ body {
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 body, input, button {
