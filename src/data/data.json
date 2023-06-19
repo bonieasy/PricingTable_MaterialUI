@@ -5,7 +5,7 @@
         "price": 0,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "benefits": ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"],
-        "popular": true
+        "popular": false
 
     },
     {
@@ -14,7 +14,7 @@
         "price": 29,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "benefits": ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"],
-        "popular": false
+        "popular": true
     },
     {
         "id": 2,

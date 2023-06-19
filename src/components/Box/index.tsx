@@ -1,7 +1,7 @@
 import { Check } from "@mui/icons-material";
 import jsonData from "../../data/data.json";
-import { Button, Divider, List, ListItem, ListItemIcon, ListItemText, Typography } from "@mui/material";
-import { CardStyled } from "./style";
+import { Divider, List, ListItem, ListItemIcon, ListItemText, Typography } from "@mui/material";
+import { CardStyled, FooterBox, ButtonSubscribe, Title } from "./style";
 
 export function Box () {
     return(
@@ -10,8 +10,10 @@ export function Box () {
         return(
 
           <CardStyled sx={{ maxWidth: 355, minHeight: 470 }}>
-          
-            <Typography variant="h2" >{plan.name}</Typography>
+
+            <Title className={`${plan.popular ? 'popular-header' : ''}`}>
+              <Typography variant="h2" >{plan.name}</Typography>
+            </Title>
 
             <Typography variant="h1" >R$ {plan.price}</Typography>
 
@@ -32,8 +34,9 @@ export function Box () {
                 })}
                   
               </List>
-           
-            <Button variant="outlined">Subscribe</Button>
+           <FooterBox>
+            <ButtonSubscribe variant="outlined">Subscribe</ButtonSubscribe>
+          </FooterBox>
         </CardStyled>
           
         )
